@@ -1,0 +1,631 @@
+{
+  "identity": {
+    "fullName": "Md. Miftahur Rahman Swapnil",
+    "displayName": "Swapnil",
+    "label": "PRODUCT DESIGNER & BUILDER | AI & AUTOMATION",
+    "headline": "Product Designer & Builder | Turning Real-World Problems into Digital Products | AI, Frontend & Automation | Creator of Edu51Portal | Final year CSE at BUBT",
+    "subtitle": "Product Designer & Builder | Turning Real-World Problems into Digital Products | AI, Frontend & Automation",
+    "description": "Product Designer & Builder with an innovative mindset, turning real-world problems into digital products. Crafting high-performance web applications, autonomous AI agents (Mikasa, n8n), and intelligent workflows. Creator of Edu51Portal | Final year CSE at BUBT.",
+    "location": "Dhaka, Bangladesh",
+    "coordinates": "23.8103° N, 90.4125° E",
+    "statusBadge": "SYS.ONLINE // AVAILABLE FOR HIRE",
+    "availability": "AVAILABLE FOR HIRE & FREELANCE",
+    "email": "miftahurr503@gmail.com",
+    "whatsapp": "+8801318090383",
+    "whatsappUrl": "https://wa.me/8801318090383",
+    "telegramUrl": "https://t.me/swapnil360",
+    "telegramHandle": "@swapnil360",
+    "linkedinUrl": "https://www.linkedin.com/in/mr-swapnil/",
+    "githubUrl": "https://github.com/Swapnil-360",
+    "xUrl": "https://x.com/thomascryptoxx",
+    "facebookUrl": "https://www.facebook.com/mr.swapnil360/",
+    "instagramUrl": "https://www.instagram.com/callmeswap/",
+    "resumeUrl": "/resume.pdf",
+    "resumeBwUrl": "/Bw-Resume.pdf",
+    "portraitUrl": "/images/pfp-b&g.png",
+    "swapnilPortraitUrl": "/images/swapnil_portrait.png",
+    "systemVersion": "v4.3.0-STARK",
+    "buildYear": "2026"
+  },
+  "education": {
+    "degree": "BSc in Computer Science & Engineering",
+    "institution": "Bangladesh University of Business and Technology (BUBT)",
+    "period": "2022 – 2026 (Expected)",
+    "location": "Dhaka, Bangladesh",
+    "description": "Pursuing rigorous computer science foundations with specialized focus on Human-Computer Interaction, Web Technologies, Database Systems, and Intelligent Architectures.",
+    "coursework": [
+      "Data Structures & Algorithms",
+      "Web Technologies",
+      "Database Management Systems (DBMS)",
+      "Software Engineering",
+      "Artificial Intelligence",
+      "Human-Computer Interaction (HCI)",
+      "Computer Networks"
+    ],
+    "research": [
+      {
+        "title": "Relation-Aware Graph Retrieval over a Curriculum Knowledge Graph for Prerequisite QA",
+        "shortName": "CurricuRAG",
+        "supervisor": "Shrabani Das (Lecturer, Department of Computer Science & Engineering, BUBT)",
+        "authors": [
+          "Md. Jahidul Kamal Islam",
+          "Md. Miftahur Rahman Swapnil",
+          "Md. Asif Ali",
+          "Shrabani Das",
+          "Shefayatuj Johara Chowdhury"
+        ],
+        "venue": "2026 IEEE International Conference on Optics, Machine Learning and Emerging Technology (OMLET)",
+        "location": "Nairobi, Kenya",
+        "dates": "29-31 October 2026",
+        "paperId": "1017",
+        "status": "Accepted with Minor Revision",
+        "indexing": [
+          "IEEE Xplore",
+          "Scopus"
+        ],
+        "description": "Curriculum Knowledge Graph-enhanced RAG system using 2-layer Relational Graph Convolutional Networks (R-GCN) and local LLMs for prerequisite reasoning with zero query-time LLM overhead over 418 nodes and 558 typed edges."
+      },
+      {
+        "title": "An Edge-Cloud Smart Classroom System for Energy Efficiency with Intelligent Classroom and Exam Modes",
+        "shortName": "Smart Classroom IoT",
+        "venue": "IEEE i-COSTE 2026",
+        "status": "Accepted",
+        "description": "Developing responsive IoT hardware-software systems using ESP32 microcontrollers, classroom automation, sensors, and edge-cloud architecture for automated utilities, exam modes, and academic tracking."
+      },
+      {
+        "title": "Design Systems & Component Architecture",
+        "description": "Engineering scalable, resilient, and accessible UI component libraries for modern distributed web applications."
+      },
+      {
+        "title": "EEG-Based Motor Imagery Classification",
+        "description": "Investigating deep learning architectures for assistive neuro-rehabilitation and paralysis motor control interfaces."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-mikasa-ai",
+      "slug": "mikasa-ai-assistant",
+      "title": "Mikasa — Personal AI Assistant",
+      "subtitle": "Autonomous AI Companion, Workflow Engine & Command Layer Powered by n8n",
+      "category": "ai",
+      "categoryLabel": "AI & Automation",
+      "shortDescription": "Personal autonomous AI assistant and operating layer built with n8n workflow automation, multi-turn conversational memory, Telegram bridge, and continuous cloud-to-local synchronization.",
+      "fullDescription": "Mikasa serves as Md. Miftahur Rahman Swapnil's dedicated executive AI companion and personal operating layer. Powered by an event-driven n8n workflow orchestration engine, Supabase cognitive memory, and high-speed multi-model failover (Gemini 2.5 Flash Lite + OpenRouter), Mikasa seamlessly connects Telegram messaging with local PC actions, quote-aware context retention, real-time web control, and autonomous task automation.",
+      "role": "System Architect & Lead Developer",
+      "status": "Live",
+      "heroImage": "/images/projects/mikasa.jpg",
+      "gallery": [
+        "/images/projects/mikasa.jpg",
+        "/images/projects/mikasa_logo.jpg"
+      ],
+      "technologies": [
+        "n8n",
+        "Node.js",
+        "Telegram Bot API",
+        "Supabase",
+        "Gemini 2.5 Flash Lite",
+        "OpenRouter API",
+        "TypeScript",
+        "Tailwind CSS",
+        "REST Webhooks"
+      ],
+      "liveUrl": "https://mikasa.mrswapnil.me/",
+      "githubUrl": "https://github.com/Swapnil-360/personal-ai-assistant",
+      "featured": true,
+      "year": "2026",
+      "keyFeatures": [
+        "n8n visual workflow orchestration for event routing and autonomous task queues",
+        "Quote-aware multi-turn conversational memory with seamless Telegram reply context understanding",
+        "Persistent Supabase cognitive memory vault with conflict-free indexing",
+        "Dual-mode cloud webhook & local PC bridge daemon enabling 24/7 autonomous parity",
+        "High-speed multi-LLM failover engine balancing Google Gemini 2.5 Flash Lite and OpenRouter models"
+      ]
+    },
+    {
+      "id": "proj-curricurag",
+      "slug": "curricurag",
+      "title": "Relation-Aware Graph Retrieval over a Curriculum Knowledge Graph for Prerequisite QA",
+      "subtitle": "Relation-Aware Curriculum Knowledge Graph Retrieval & QA (IEEE OMLET 2026) — Supervised by Shrabani Das (Lecturer, CSE, BUBT)",
+      "category": "ai",
+      "categoryLabel": "AI & Knowledge Graphs",
+      "shortDescription": "Curriculum Knowledge Graph-enhanced RAG system using 2-layer Relational Graph Convolutional Networks (R-GCN) and local LLMs for prerequisite reasoning with zero query-time LLM overhead.",
+      "fullDescription": "CurricuRAG bridges graph neural network retrieval with locally deployed instruction-tuned LLMs (Qwen2.5-7B-Instruct 4-bit NF4) over a Neo4j-verified curriculum knowledge graph of 418 nodes and 558 typed edges. Accepted with Minor Revision at 2026 IEEE International Conference on Optics, Machine Learning and Emerging Technology (OMLET, Nairobi, Kenya).",
+      "role": "Undergraduate Researcher & Core Author (Supervised by Shrabani Das)",
+      "status": "Completed / Accepted",
+      "heroImage": "/images/projects/opusgen.jpg",
+      "gallery": [
+        "/images/projects/opusgen.jpg",
+        "/images/projects/opusgen_real.png"
+      ],
+      "technologies": [
+        "PyTorch",
+        "Relational GCN",
+        "Neo4j",
+        "Sentence-BERT",
+        "Qwen2.5-7B-Instruct",
+        "Python",
+        "Hugging Face",
+        "NetworkX"
+      ],
+      "githubUrl": "https://github.com/Swapnil-360/CurricuRAG",
+      "featured": true,
+      "year": "2026",
+      "keyFeatures": [
+        "2-layer Relational Graph Convolutional Network (R-GCN) inductive link prediction",
+        "Neo4j curriculum knowledge graph schema encoding course, prerequisite, and department relations",
+        "Sentence-BERT 384-dimensional semantic node representations",
+        "Grounded constraint prompt generation eliminating LLM hallucination"
+      ]
+    },
+    {
+      "id": "proj-1",
+      "slug": "opusgen-ai",
+      "title": "OpusGen AI",
+      "subtitle": "AI-Powered Visual Generation & Creative Asset Studio",
+      "category": "ai",
+      "categoryLabel": "AI & Creative Suite",
+      "shortDescription": "Full-stack AI studio empowering creators with instant text-to-image synthesis, neural background replacement, intelligent uncropping, and HD upscaling via modern generative models.",
+      "fullDescription": "OpusGen AI is an all-in-one generative creative platform designed to supercharge digital artists, marketers, and developers. Built on Next.js 14 App Router, it integrates state-of-the-art diffusion models for seamless image synthesis, canvas editing, neural enhancement, and asset export with zero friction.",
+      "role": "Lead Architect & Full-Stack Developer",
+      "status": "Live",
+      "heroImage": "/images/projects/opusgen_real.png",
+      "gallery": [
+        "/images/projects/opusgen_real.png",
+        "/images/projects/opusgen.jpg"
+      ],
+      "technologies": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "Stable Diffusion API",
+        "Canvas API",
+        "Supabase",
+        "Vercel Serverless"
+      ],
+      "liveUrl": "https://opusgenai.com",
+      "githubUrl": "https://github.com/Swapnil-360/OpusGenAi2.0",
+      "featured": true,
+      "year": "2026",
+      "keyFeatures": [
+        "Neural text-to-image synthesis with style presets",
+        "AI-powered background removal and replacement pipeline",
+        "Image uncropping / generative canvas expansion",
+        "High-resolution 4x image upscaling"
+      ]
+    },
+    {
+      "id": "proj-2-dept",
+      "slug": "edu51portal-bubt",
+      "title": "Edu51Portal (BUBT Full Dept Version)",
+      "subtitle": "Official Department-Scale Academic Resource & Routine Management Ecosystem",
+      "category": "web",
+      "categoryLabel": "Department Web System",
+      "shortDescription": "Comprehensive academic hub serving the entire BUBT CSE department with real-time class routines, semester course material drives, batch announcements, and teacher contact directories.",
+      "fullDescription": "Edu51Portal Department Version scaled the pilot project to support multiple BUBT intakes, faculties, and hundreds of daily students. Features semester course file repositories, real-time timetable changes, batch-specific alerts, and cloud document caching.",
+      "role": "Founder & Lead Architect",
+      "status": "Live",
+      "heroImage": "/images/projects/edu51_bubt_real.png",
+      "gallery": [
+        "/images/projects/edu51_bubt_real.png",
+        "/images/projects/edu51_real.jpeg"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "Google Drive API",
+        "Vercel Edge Network"
+      ],
+      "liveUrl": "https://bubt.edu51portal.live/",
+      "githubUrl": "https://github.com/Swapnil-360/Edu51Five",
+      "featured": true,
+      "year": "2025–2026",
+      "keyFeatures": [
+        "Complete BUBT CSE intake resource vaults and lecture repositories",
+        "Real-time interactive class schedules and routine filters",
+        "Integrated Google Drive cloud storage streaming",
+        "Department notices and academic calendar synchronizer"
+      ]
+    },
+    {
+      "id": "proj-2",
+      "slug": "edu51five",
+      "title": "Edu51Five",
+      "subtitle": "Community-Driven Academic Portal for BUBT Intake 51 Cohort",
+      "category": "web",
+      "categoryLabel": "Academic Web Platform",
+      "shortDescription": "The origin project that kickstarted Edu51Portal — built specifically for 200+ students of intake 51 to collaborate on notes, lab reports, and exam prep.",
+      "fullDescription": "Created to solve the painful fragmentation of lecture slides, syllabus updates, and lab code across messy Messenger chats. Centrally indexed all semester resources, lecture notes, lab manuals, and previous exam question archives.",
+      "role": "Creator & Full-Stack Developer",
+      "status": "Live",
+      "heroImage": "/images/projects/edu51_real.jpeg",
+      "gallery": [
+        "/images/projects/edu51_real.jpeg",
+        "/images/projects/edu51_bubt_real.png"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "Vercel"
+      ],
+      "liveUrl": "https://edu51portal.live/",
+      "githubUrl": "https://github.com/Swapnil-360/Edu51Five",
+      "featured": false,
+      "year": "2024–2025",
+      "keyFeatures": [
+        "Centralized course notes index organized by semester",
+        "Lab manual downloads and starter code samples",
+        "Mobile-first responsive access for on-campus studying"
+      ]
+    },
+    {
+      "id": "proj-3",
+      "slug": "prince-portfolio",
+      "title": "Portfolio for Prince",
+      "subtitle": "Cinematic Client Portfolio & Personal Brand Platform",
+      "category": "web",
+      "categoryLabel": "Client Web Experience",
+      "shortDescription": "High-conversion modern personal website engineered for digital marketing expert Prince, featuring smooth Framer Motion interactions, responsive layouts, and sub-2s load times.",
+      "fullDescription": "Custom built for client Prince to showcase their client roster, marketing case studies, testimonials, and booking services. Built on Next.js App Router and Framer Motion for buttery-smooth animations.",
+      "role": "UI/UX Designer & Frontend Engineer",
+      "status": "Live",
+      "heroImage": "/images/projects/prince_real.png",
+      "gallery": [
+        "/images/projects/prince_real.png",
+        "/images/projects/prince.jpg"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Vercel"
+      ],
+      "liveUrl": "https://www.sbprince.com/",
+      "githubUrl": null,
+      "featured": true,
+      "year": "2026",
+      "keyFeatures": [
+        "Tailored responsive layouts with mobile-first fluidity",
+        "Framer Motion interactive micro-animations and smooth scroll",
+        "High-performance assets loading in under 2 seconds"
+      ]
+    },
+    {
+      "id": "proj-4",
+      "slug": "pawfect-match",
+      "title": "PawfectMatch",
+      "subtitle": "Mobile Animal Adoption & Rescue Community Platform",
+      "category": "mobile",
+      "categoryLabel": "Mobile Application",
+      "shortDescription": "Cross-platform mobile application uniting animal shelters, rescue volunteers, and adopters through a streamlined pet discovery and adoption workflow.",
+      "fullDescription": "Designed in Figma and built with React Native, PawfectMatch provides a modern, touch-optimized experience for pet adoption listings, shelter messaging, and rescue emergency notices.",
+      "role": "Frontend & UI/UX Developer",
+      "status": "Active / In Progress",
+      "heroImage": "/images/projects/pawfect_gh_real.png",
+      "gallery": [
+        "/images/projects/pawfect_gh_real.png",
+        "/images/projects/pawfect.jpg"
+      ],
+      "technologies": [
+        "React Native",
+        "Figma",
+        "Firebase",
+        "Expo",
+        "Mobile UI/UX"
+      ],
+      "githubUrl": "https://github.com/orgs/PawfectMatch2-0/repositories",
+      "featured": true,
+      "year": "2024–Present",
+      "keyFeatures": [
+        "Interactive pet profile swipe and discovery cards",
+        "Filter by breed, age, vaccination status, and distance",
+        "Shelter direct contact and adoption application forms"
+      ]
+    },
+    {
+      "id": "proj-5",
+      "slug": "mutebd",
+      "title": "MuteBD",
+      "subtitle": "Accessibility & Sign Assist Platform for Hearing-Impaired Individuals",
+      "category": "mobile",
+      "categoryLabel": "Android Kotlin App",
+      "shortDescription": "Native mobile accessibility tool designed for the speech and hearing-impaired community in Bangladesh, integrating quick emergency phrase cards and visual alerts.",
+      "fullDescription": "MuteBD tackles daily accessibility hurdles by offering localized sign assistance, pre-composed Bengali emergency communication cards, and vibrating visual alerts for deaf and mute citizens.",
+      "role": "Mobile Developer & UI Designer",
+      "status": "Completed / Prototype",
+      "heroImage": "/images/projects/mutebd_gh_real.png",
+      "gallery": [
+        "/images/projects/mutebd_gh_real.png",
+        "/images/projects/mutebd.jpg"
+      ],
+      "technologies": [
+        "Kotlin",
+        "Android SDK",
+        "Material Design",
+        "Accessibility APIs"
+      ],
+      "githubUrl": "https://github.com/Swapnil-360",
+      "featured": false,
+      "year": "2024",
+      "keyFeatures": [
+        "Categorized emergency visual communication cards in Bengali",
+        "High-contrast accessible user interface for outdoor visibility",
+        "Offline-first emergency alert generation"
+      ]
+    },
+    {
+      "id": "proj-6",
+      "slug": "escape-room-3d",
+      "title": "3D Escape Room Game",
+      "subtitle": "Interactive First-Person 3D Puzzle Game Built From Scratch in C",
+      "category": "graphics",
+      "categoryLabel": "Computer Graphics in C",
+      "shortDescription": "First-person 3D puzzle escape environment engineered in pure C with OpenGL / freeglut, complete with collision detection, texture mapping, and ambient lighting.",
+      "fullDescription": "Academic Computer Graphics showcase: built custom perspective projection matrices, 3D camera navigation, ambient/diffuse Phong lighting pipelines, and puzzle trigger mechanisms without any high-level game engines.",
+      "role": "Sole Graphics Developer",
+      "status": "Completed",
+      "heroImage": "/images/projects/escaperoom_gh_real.png",
+      "gallery": [
+        "/images/projects/escaperoom_gh_real.png",
+        "/images/projects/escaperoom.jpg"
+      ],
+      "technologies": [
+        "C",
+        "OpenGL",
+        "GLUT / freeglut",
+        "Linear Algebra",
+        "3D Math"
+      ],
+      "githubUrl": "https://github.com/Swapnil-360",
+      "featured": false,
+      "year": "2024",
+      "keyFeatures": [
+        "Custom 6-DOF camera Euler pitch/yaw navigation",
+        "Phong illumination pipeline (ambient, diffuse, specular)",
+        "Interactive room puzzle triggers and exit locks"
+      ]
+    }
+  ],
+  "skills": {
+    "aiAutomation": [
+      {
+        "name": "n8n Workflow Automation",
+        "highlight": true
+      },
+      {
+        "name": "Autonomous AI Agents",
+        "highlight": true
+      },
+      {
+        "name": "Multi-LLM Orchestration (Gemini & OpenRouter)",
+        "highlight": true
+      },
+      {
+        "name": "Supabase pgvector & Long-term Memory",
+        "highlight": true
+      },
+      {
+        "name": "Claude AI & Cursor IDE",
+        "highlight": true
+      },
+      {
+        "name": "Knowledge Graphs & RAG (Neo4j)",
+        "highlight": false
+      },
+      {
+        "name": "Prompt Engineering & Context Routing",
+        "highlight": false
+      }
+    ],
+    "frontend": [
+      {
+        "name": "Next.js 14/15 (App Router)",
+        "highlight": true
+      },
+      {
+        "name": "React 18/19",
+        "highlight": true
+      },
+      {
+        "name": "TypeScript",
+        "highlight": true
+      },
+      {
+        "name": "Tailwind CSS",
+        "highlight": true
+      },
+      {
+        "name": "Framer Motion",
+        "highlight": true
+      },
+      {
+        "name": "JavaScript (ES6+)",
+        "highlight": false
+      },
+      {
+        "name": "HTML5 / Modern CSS",
+        "highlight": false
+      }
+    ],
+    "backendCloud": [
+      {
+        "name": "Node.js & Express",
+        "highlight": true
+      },
+      {
+        "name": "Telegram Bot API",
+        "highlight": true
+      },
+      {
+        "name": "Supabase (PostgreSQL & RLS)",
+        "highlight": true
+      },
+      {
+        "name": "REST APIs & Webhooks",
+        "highlight": true
+      },
+      {
+        "name": "Git & GitHub",
+        "highlight": true
+      },
+      {
+        "name": "Vercel / Netlify Deployments",
+        "highlight": false
+      },
+      {
+        "name": "Firebase Realtime DB",
+        "highlight": false
+      }
+    ],
+    "designMotion": [
+      {
+        "name": "Figma (Design Systems)",
+        "highlight": true
+      },
+      {
+        "name": "UI/UX Prototyping",
+        "highlight": true
+      },
+      {
+        "name": "CapCut Pro",
+        "highlight": true
+      },
+      {
+        "name": "Adobe Photoshop",
+        "highlight": false
+      },
+      {
+        "name": "Adobe Premiere Pro",
+        "highlight": false
+      },
+      {
+        "name": "Canva Pro",
+        "highlight": false
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "id": "exp-1",
+      "role": "AI-Powered Development & Creative Technologist",
+      "organization": "Independent Consultant / Freelance",
+      "period": "2023 – Present",
+      "description": "Building modern high-performance web applications using Claude and Cursor for rapid smart engineering. Deploying scalable apps to Vercel and Netlify while upholding rigorous UI/UX standards.",
+      "responsibilities": [
+        "Developing bespoke responsive websites and interactive web applications",
+        "Employing AI-accelerated workflows to decrease prototype-to-production turnaround by 60%",
+        "Integrating Supabase and modern serverless backends with secure authentication"
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Figma",
+        "Claude",
+        "Cursor"
+      ],
+      "isCurrent": true,
+      "badge": "Active Command"
+    },
+    {
+      "id": "exp-2",
+      "role": "Lead Frontend Developer",
+      "organization": "Edu51Portal / Edu51Five Project",
+      "period": "2024 – Present",
+      "description": "Directing the frontend architecture and deployment pipeline for the premier BUBT academic resource portal serving undergraduate engineering cohorts.",
+      "responsibilities": [
+        "Spearheading Next.js frontend engineering and modular UI component development",
+        "Orchestrating Git workflows, code reviews, and automated Vercel deployments",
+        "Managing routine databases and student feedback iterations"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Vercel",
+        "Tailwind"
+      ],
+      "isCurrent": true,
+      "badge": "Core Project"
+    },
+    {
+      "id": "exp-3",
+      "role": "Frontend & UI/UX Developer",
+      "organization": "Pawfect Match Initiative",
+      "period": "2024 – Present",
+      "description": "Designed and implemented mobile interfaces for a nationwide pet rescue and adoption platform connecting animal lovers with rescue shelters.",
+      "responsibilities": [
+        "Crafted mobile wireframes and interactive prototypes in Figma",
+        "Developed cross-platform client components with React Native",
+        "Integrated real-time Firebase datastores for instantaneous listing updates"
+      ],
+      "technologies": [
+        "React Native",
+        "Figma",
+        "Firebase",
+        "Mobile UI"
+      ],
+      "isCurrent": true
+    },
+    {
+      "id": "exp-4",
+      "role": "Creative Designer & Motion Creator",
+      "organization": "BUBT Tech & CSE Clubs",
+      "period": "2022 – Present",
+      "description": "Spearheaded digital promotional visuals, event branding, hackathon promo reels, and social media campaigns for university tech organizations.",
+      "responsibilities": [
+        "Designed event banners, social media collaterals, and digital posters in Figma and Photoshop",
+        "Produced fast-paced promotional teasers and event highlight reels in CapCut Pro and Premiere Pro",
+        "Elevated club visual identity and attendee engagement across campus tech summits"
+      ],
+      "technologies": [
+        "Figma",
+        "Photoshop",
+        "CapCut Pro",
+        "Premiere Pro"
+      ],
+      "isCurrent": true
+    }
+  ],
+  "assets": {
+    "profile": {
+      "pfp": "/images/pfp.png",
+      "swapnilPortrait": "/images/swapnil_portrait.png",
+      "avatarLogo": "/images/avatar_logo.png",
+      "sBadge": "/images/s_badge.png",
+      "sClean": "/images/s_clean.png",
+      "sLogo": "/images/s_logo.png",
+      "sMark": "/images/s_mark.png",
+      "sSymbol": "/images/s_symbol.png"
+    },
+    "resumes": {
+      "main": "/resume.pdf",
+      "bw": "/Bw-Resume.pdf"
+    },
+    "backgrounds": {
+      "desktop": "/images/bg_static_desktop.jpg",
+      "mobile": "/images/bg_static_mobile.jpg",
+      "video": "/videos/bg_video.mp4"
+    },
+    "projectThumbnails": {
+      "mikasa": "/images/projects/mikasa.jpg",
+      "mikasaLogo": "/images/projects/mikasa_logo.jpg",
+      "curricurag": "/images/projects/opusgen.jpg",
+      "opusgen": "/images/projects/opusgen_real.png",
+      "edu51Dept": "/images/projects/edu51_bubt_real.png",
+      "edu51Pilot": "/images/projects/edu51_real.jpeg",
+      "prince": "/images/projects/prince_real.png",
+      "pawfect": "/images/projects/pawfect_gh_real.png",
+      "mutebd": "/images/projects/mutebd_gh_real.png",
+      "escaperoom": "/images/projects/escaperoom_gh_real.png"
+    }
+  }
+}

@@ -309,6 +309,50 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "pockit",
+    title: "Pockit — Student Money & Risk Coach",
+    subtitle: "Bilingual Fintech Mobile App · Hybrid ML Risk Classifier & Gemini AI Coach",
+    year: "2026",
+    genre: "Fintech · Machine Learning · Mobile",
+    categoryLabel: "AI Fintech Product",
+    logline:
+      "A bilingual (EN/BN) student finance & risk coach powered by a 22-feature GradientBoosting ML pipeline, Gemini AI advisor, Expo React Native app, and FastAPI backend.",
+    description:
+      "Pockit helps university students in Bangladesh avoid running out of money before month-end. It combines a fast <5s daily expense and income logger in Expo React Native with a 22-feature hybrid Machine Learning financial risk classifier, real-time safe-to-spend pacing, a Gemini AI purchase simulator & daily coach, and a Next.js admin panel backed by FastAPI and Supabase.",
+    stack: [
+      "React Native (Expo)",
+      "TypeScript",
+      "FastAPI",
+      "Python",
+      "Scikit-Learn",
+      "Gemini API",
+      "Supabase",
+      "Next.js",
+    ],
+    features: [
+      "22-feature hybrid GradientBoosting ML risk classifier & safe-to-spend pacing engine",
+      "Gemini AI daily financial coach and interactive purchase-impact simulator",
+      "Bilingual (English & Bangla) Expo React Native app with biometric/PIN lock & offline caching",
+      "FastAPI Python backend with SQLite/Supabase PostgreSQL (RLS) and Next.js admin panel",
+    ],
+    metrics: [
+      { value: "22-Feature", label: "ML Risk Model" },
+      { value: "EN / BN", label: "Bilingual UI" },
+      { value: "< 5s", label: "Expense Logging" },
+    ],
+    status: "Live",
+    image: "/images/projects/pockit.png",
+    aspectRatio: "16/9",
+    mediaType: "image",
+    gallery: [
+      "/images/projects/pockit.png",
+      "/images/projects/pockit_logo.png",
+    ],
+    github: "https://github.com/Swapnil-360/pockit-student-finance",
+    palette: ocean,
+    featured: true,
+  },
+  {
     id: "opusgen-ai",
     title: "OpusGen AI",
     subtitle: "Co-Founder & CTO · AI Visual Studio & Marketing Platform",
@@ -721,6 +765,15 @@ export const seasons: Season[] = [
         runtime: "2026",
         palette: cobalt,
       },
+      {
+        code: "S03 E04",
+        title: "Pockit: Bilingual ML Student Finance & Risk Coach",
+        description:
+          "Engineered an end-to-end bilingual (EN/BN) fintech mobile app in Expo React Native & FastAPI with a 22-feature ML risk classifier, Gemini AI coach, and Next.js admin dashboard.",
+        tags: ["Pockit", "React Native", "FastAPI", "Machine Learning"],
+        runtime: "2026",
+        palette: ocean,
+      },
     ],
   },
   {
@@ -893,7 +946,7 @@ export const skillEvidence: Record<string, string[]> = {
     "Portfolio for Prince",
   ],
   "React 18/19": ["Edu51Five", "Edu51Portal", "Portfolio for Prince"],
-  TypeScript: ["Mikasa Personal Assistant", "Edu51Portal", "OpusGen AI"],
+  TypeScript: ["Pockit", "Mikasa Personal Assistant", "Edu51Portal", "OpusGen AI"],
   "Tailwind CSS": [
     "Edu51Portal",
     "OpusGen AI",
@@ -912,6 +965,7 @@ export const skillEvidence: Record<string, string[]> = {
     "Cross-Platform Mobile Prototyping & Dynamic Interfaces",
   ],
   "React Native": [
+    "Pockit Student Finance & Risk Coach",
     "PawfectMatch Mobile Pet Adoption App",
     "ReliefLink Bangladesh",
   ],
@@ -927,7 +981,7 @@ export const skillEvidence: Record<string, string[]> = {
   "AI Product Visuals (OpusGen AI)": [
     "Commercial E-Commerce Product Visuals & Generative Pipelines",
   ],
-  "Supabase (PostgreSQL & RLS)": ["Edu51Portal", "OpusGen AI", "Mikasa Memory"],
+  "Supabase (PostgreSQL & RLS)": ["Pockit", "Edu51Portal", "OpusGen AI", "Mikasa Memory"],
   "Telegram Bot API": [
     "Mikasa Telegram Bot Interface with Quote-Aware Context Retention",
   ],

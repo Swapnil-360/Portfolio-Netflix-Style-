@@ -255,6 +255,8 @@ export type Project = {
   gallery?: string[];
   liveUrl?: string;
   github?: string;
+  downloadUrl?: string;
+  downloadLabel?: string;
   palette: Palette;
   featured?: boolean;
 };
@@ -349,6 +351,8 @@ export const projects: Project[] = [
       "/images/projects/pockit_logo.png",
     ],
     github: "https://github.com/Swapnil-360/pockit-student-finance",
+    downloadUrl: "https://github.com/Swapnil-360/pockit-student-finance/releases/latest/download/pockit-2.0.1.apk",
+    downloadLabel: "Download APK (v2.0.1)",
     palette: ocean,
     featured: true,
   },

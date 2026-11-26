@@ -178,6 +178,19 @@ export default function ProjectModal({
                   </a>
                 </Magnetic>
               )}
+              {project.downloadUrl && (
+                <Magnetic>
+                  <a
+                    href={project.downloadUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    data-cursor="link"
+                    className="flex min-h-12 items-center gap-2 rounded-md bg-emerald-500 px-6 text-[15px] font-bold text-ink transition hover:bg-emerald-400 shadow-xl"
+                  >
+                    <span>↓</span> {project.downloadLabel || "Download APK"}
+                  </a>
+                </Magnetic>
+              )}
               {project.github && (
                 <Magnetic>
                   <a

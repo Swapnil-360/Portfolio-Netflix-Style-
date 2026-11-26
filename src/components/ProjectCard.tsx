@@ -116,6 +116,18 @@ export default function ProjectCard({
                   Live Demo ↗
                 </a>
               )}
+              {project.downloadUrl && (
+                <a
+                  href={project.downloadUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  data-cursor="link"
+                  onClick={(e) => e.stopPropagation()}
+                  className="flex min-h-8 sm:min-h-9 items-center gap-1 rounded-md border border-emerald-400/40 bg-emerald-500/15 px-3 text-[11px] sm:text-xs font-semibold text-emerald-300 backdrop-blur transition hover:border-emerald-400/70 hover:bg-emerald-500/25"
+                >
+                  Download APK ↓
+                </a>
+              )}
               {project.github && !project.liveUrl && (
                 <a
                   href={project.github}

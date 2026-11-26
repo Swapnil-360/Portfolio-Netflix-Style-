@@ -73,7 +73,7 @@ export default function ProjectModal({
           exit={{ opacity: 0, y: 30, transition: { duration: 0.3 } }}
         >
           {/* Billboard Banner */}
-          <div className="relative h-[52vh] min-h-[350px] overflow-hidden sm:rounded-t-2xl">
+          <div className="relative aspect-[16/9] max-h-[46vh] w-full overflow-hidden sm:rounded-t-2xl bg-black">
             <motion.div
               layoutId={`art-${project.id}`}
               className="absolute inset-0"
@@ -81,7 +81,7 @@ export default function ProjectModal({
             >
               <ProjectArt project={project} />
             </motion.div>
-            <div className="absolute inset-0 bg-gradient-to-t from-ink-2 via-ink-2/60 via-35% to-transparent pointer-events-none" />
+            <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-ink-2 to-transparent pointer-events-none" />
 
             <button
               ref={closeBtn}
@@ -93,13 +93,21 @@ export default function ProjectModal({
             >
               ✕
             </button>
+          </div>
 
-            <div className="absolute inset-x-0 bottom-0 px-6 pb-6 sm:px-10 z-10">
+          {/* Modal Body */}
+          <motion.div
+            className="px-6 pb-12 pt-4 sm:px-10"
+            initial="hidden"
+            animate="show"
+            transition={{ staggerChildren: 0.08, delayChildren: 0.25 }}
+          >
+            <div className="mb-3">
               <motion.p
                 className="mb-2 flex items-center gap-2 text-[11px] font-bold tracking-[0.34em] text-bone/80"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 0.3 }}
+                transition={{ delay: 0.2 }}
               >
                 <span className="font-display text-xl tracking-normal text-crimson-2">
                   S
@@ -119,27 +127,19 @@ export default function ProjectModal({
               <motion.h2
                 id={`title-${project.id}-modal`}
                 layoutId={`title-${project.id}`}
-                className="font-display text-[clamp(2.6rem,7vw,5.5rem)] leading-[0.88] tracking-wide text-bone"
+                className="font-display text-[clamp(2.2rem,5.5vw,4.2rem)] leading-[0.92] tracking-wide text-bone"
                 transition={{ duration: 0.7, ease: EASE }}
               >
                 {project.title}
               </motion.h2>
-              <p className="text-sm sm:text-base text-mist mt-1 font-serif italic">
+              <p className="text-sm sm:text-base text-mist mt-1.5 font-serif italic">
                 {project.subtitle}
               </p>
             </div>
-          </div>
 
-          {/* Modal Body */}
-          <motion.div
-            className="px-6 pb-12 sm:px-10"
-            initial="hidden"
-            animate="show"
-            transition={{ staggerChildren: 0.08, delayChildren: 0.25 }}
-          >
             <motion.div
               variants={block}
-              className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-mist pt-4"
+              className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-mist pt-2 border-t border-white/[0.06]"
             >
               <span className="font-semibold text-crimson-2">
                 {project.year}
